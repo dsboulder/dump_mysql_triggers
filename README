@@ -1,7 +1,7 @@
 DumpMysqlTriggers
 =================
 
-Introduction goes here.
+This plugin adds CREATE TRIGGER commands to migrate your triggers from your development DB to your test DB.  It is an extension to the structure dumper included with the MysqlAdapter.  Be sure to set schema_format to :sql, NOT :ruby in your rails initializer in environment.rb.
 
 
 Copyright (c) 2008 David Stevenson & Craig Partin, released under the MIT license
